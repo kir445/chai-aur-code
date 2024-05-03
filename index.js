@@ -15,7 +15,9 @@ app.get('/twitter',(req,res)=>{
 app.get('/login',(req,res)=>{
     res.send('<h1> Please login at chai aur code</h1>')
 })
-
+app.get('/Register',(req,res)=>{
+  res.send('<h1> Please login at chai aur code</h1>')
+})
 app.get('/youtube',(req,res)=>{
     res.send("Chai aur Code")
 }
