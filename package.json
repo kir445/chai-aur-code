@@ -2,9 +2,10 @@
   "name": "chai-and-deploy",
   "version": "1.0.0",
   "description": "deploy server application  ",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": " node index.js"
+    "start": " node server.js"
   },
   "author": "keerti sharma",
   "license": "ISC",
